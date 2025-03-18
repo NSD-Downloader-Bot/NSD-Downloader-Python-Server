@@ -1,4 +1,4 @@
-﻿Flask==2.2.1
+Flask==2.1.0 
 python-dotenv==1.0.1
 asyncio==3.4.3
 pytubefix==8.12.2
