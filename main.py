@@ -15,6 +15,9 @@ VIDEO_DIR = "videos/"
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
+@app.route('/')
+def home():
+    return jsonify({"message": "Web service is running"}), 200
 
 def get_server_ip():
     """ Get the local IP address of the server """
